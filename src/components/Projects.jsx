@@ -8,18 +8,19 @@ function Projects() {
                 {/* Example project cards */}
                 <div style={{ border: '1px solid #ddd', borderRadius: '10px', padding: '20px', width: '300px', textAlign: 'left' }}>
                     <h3>Portfolio Website</h3>
-                    <p>My personal React portfolio website displaying all my projects and skills acquired.</p>
+                    <p>My personal developer portfolio built with React to showcase my full-stack and cybersecurity projects.</p>
+                    <p><strong>Tech Stack:</strong> React, JavaScript, CSS</p>
                     <a href="https://github.com/Tobiscus100/portfolio-website" target="_blank" rel="noreferrer">GitHub</a>
                 </div>
                 <div style={{ border: '1px solid #ddd', borderRadius: '10px', padding: '20px', width: '300px', textAlign: 'left' }}>
                     <h3>Fintech Transaction API</h3>
-                    <p>Django REST API simulating banking transactions with authentication and transactional history.</p>
-                    <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                    <p> A Django REST API simulating financial transactions including authentication, balance tracking and transactional history.</p>
+                    <p><strong>Tech Stack:</strong> Django, Django REST Framework, PostgreSQL</p>
                 </div> 
                 <div style={{ border: '1px solid #ddd', borderRadius: '10px', padding: '20px', width: '300px', textAlign: 'left' }}>
                     <h3>Finance Dashboard</h3>
-                    <p>React app visualizing income and expenses with charts and analytics for fintech projects.</p>
-                    <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                    <p> A React dashboard for tracking income and expenses with charts and financial analytics.</p>
+                    <p><strong>Tech Stack:</strong> React, JavaScript, CSS</p>
                 </div>  
             </div>
         </section>
