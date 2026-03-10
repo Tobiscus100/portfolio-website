@@ -14,6 +14,7 @@ function Cybersecurity() {
                 <li> Datacom Cybersecurity Job Simulation</li>
                 <li> Deloitte Cyber Job Simulation</li>
                 <li> Hp Introduction to Cybsersecurity Awareness</li>
+                <li>and more...</li>
             </ul>
             <p style={{marginTop: '20px' }}>Currently, I am learning Python for Cybersecurity to build secure web applications and gain hands-on experience in protecting systems and networks.</p>
         </section>
