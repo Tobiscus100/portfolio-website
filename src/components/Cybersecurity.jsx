@@ -2,10 +2,10 @@ import React from 'react';
 
 function Cybersecurity() {
     return (
-        <section>
+        <section style={{ padding: '50px', maxWidth: '800px', margin: '0 auto', textAlign: 'center', backgroundColor: '#f9f9f9' }}>
             <h2>Cybersecurity Journey</h2>
             <p>I have completed courses like: </p>
-            <ul style={{listStyleType: 'disc', paddingLeft: '20px', textAlign: 'left', display: 'inline-block'}}>
+            <ul style={{listStyleType: 'disc', paddingLeft: '20px', textAlign: 'left', display: 'inline-block', }}>
                 <li>Introduction to Cybersecurity</li>
                 <li> Junior Cybersecurity Analyst path by Cisco</li>
                 <li> Network Basics</li>
