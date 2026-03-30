@@ -8,33 +8,33 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      <div style={{ padding: '80px 20px'}}>
+
+      <header className="hero">
         <h1>Hi, I'm Adeyinka Oluwatobiloba 👋</h1>
-      <h2>Full-Stack Developer (React + Django)</h2>
-      <p>Building amazing web applications and fintech projects.</p>
+        <h2>Full-Stack Developer (React + Django)</h2>
+        <p>Building amazing web applications and fintech projects.</p>
+      </header>
+
+      <main>
+        <section>
+          <About />
+        </section>
+
+        <section className="alt">
+          <Cybersecurity />
+        </section>
+
+        <section>
+          <Projects />
+        </section>
+
+        <section className="alt">
+          <Skills />
+        </section>
+      </main>
+
     </div>
-
-    <section style={{ padding: '50px 20px' }}>
-  <About />
-</section>
-
-<section style={{ padding: '50px 20px' }}>
-  <Cybersecurity />
-</section>
-
-<section style={{ padding: '50px 20px' }}>
-  <Projects />
-</section>
-
-<section style={{ padding: '50px 20px' }}>
-  <Skills />
-</section>
-      </div>
-      
-    
   );
-     
-  
 }
 
 export default App;
