@@ -5,7 +5,7 @@ import About from './components/About';
 import Cybersecurity from './components/Cybersecurity';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -36,9 +36,13 @@ function App() {
   <h2>Contact</h2>
   <p>You can reach me via email or GitHub.</p>
 </section>
+<section id="contact">
+  <Contact />
+</section>
       </main>
 
     </div>
+    
   );
 }
 
