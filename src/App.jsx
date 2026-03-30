@@ -7,17 +7,28 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="App" style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center' }}>
-      <div style={{ padding: '50px'}}>
+    <div className="App">
+      <div style={{ padding: '80px 20px'}}>
         <h1>Hi, I'm Adeyinka Oluwatobiloba 👋</h1>
       <h2>Full-Stack Developer (React + Django)</h2>
       <p>Building amazing web applications and fintech projects.</p>
     </div>
 
-    <About />
-    <Cybersecurity />
-    <Projects />
-    <Skills />
+    <section style={{ padding: '50px 20px' }}>
+  <About />
+</section>
+
+<section style={{ padding: '50px 20px' }}>
+  <Cybersecurity />
+</section>
+
+<section style={{ padding: '50px 20px' }}>
+  <Projects />
+</section>
+
+<section style={{ padding: '50px 20px' }}>
+  <Skills />
+</section>
       </div>
       
     

@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
     return (
-         <section style={{ padding: '50px', maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-      <h2>About Me</h2>
+         <section style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+      <h2 style={{ marginBottom: '20px' }}>About Me</h2>
       <p>
         Hi! I'm Adeyinka Oluwatobiloba, a Full-Stack Developer skilled in React and Django. 
         I build web applications with clean code and intuitive design, focusing on fintech and secure systems.
