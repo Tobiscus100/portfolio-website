@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="hero">
+      <header id="home" className="hero">
         <h1>Hi, I'm Adeyinka Oluwatobiloba 👋</h1>
         <h2>Full-Stack Developer (React + Django)</h2>
         <p>Building amazing web applications and fintech projects.</p>
@@ -31,6 +31,10 @@ function App() {
 
 <section id="skills" className="alt">
   <Skills />
+</section>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>You can reach me via email or GitHub.</p>
 </section>
       </main>
 

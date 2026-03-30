@@ -16,10 +16,38 @@ function Navbar() {
       </div>
 
       <ul className={`nav-links ${open ? "open" : ""}`}>
-        <li><a href="#about" onClick={toggleMenu}>About</a></li>
-        <li><a href="#cybersecurity" onClick={toggleMenu}>Cybersecurity</a></li>
-        <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-        <li><a href="#skills" onClick={toggleMenu}>Skills</a></li>
+        <ul className={`nav-links ${open ? "open" : ""}`}>
+          <li>
+            <a href="#home" onClick={toggleMenu}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" onClick={toggleMenu}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#cybersecurity" onClick={toggleMenu}>
+              Cybersecurity
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={toggleMenu}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={toggleMenu}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={toggleMenu}>
+              Contact
+            </a>
+          </li>
+        </ul>
       </ul>
     </nav>
   );
