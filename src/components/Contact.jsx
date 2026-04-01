@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -15,22 +16,37 @@ function Contact() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!formData.name || !formData.email || !formData.message) {
-      alert("Please fill in all fields");
-      return;
-    }
+  if (!formData.name || !formData.email || !formData.message) {
+    alert("Please fill in all fields");
+    return;
+  }
 
-    alert("Message sent successfully!");
+  emailjs
+    .send(
+      "service_ogd42e2",
+      "template_r21xsnj",
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      },
+      "2_sBNeok2kd1F8i-S"
+    )
+    .then(() => {
+      alert("Message sent successfully!");
 
-    // reset form
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    })
+    .catch(() => {
+      alert("Failed to send message. Try again.");
     });
-  };
+};
 
   return (
     <section id="contact" style={styles.section}>
