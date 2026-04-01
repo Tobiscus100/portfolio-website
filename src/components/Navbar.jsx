@@ -1,56 +1,73 @@
 import React, { useState } from "react";
 
 function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [hovered, setHovered] = useState(null);
 
-  const toggleMenu = () => {
-    setOpen(!open);
-  };
+  const links = [
+    "Home",
+    "About",
+    "Cybersecurity",
+    "Projects",
+    "Skills",
+    "Contact",
+  ];
 
   return (
-    <nav className="navbar">
-      <h2 className="logo">Tobi.dev</h2>
+    <nav style={styles.navbar}>
+      <h2 style={styles.logo}>Tobi.dev</h2>
 
-      <div className="menu-icon" onClick={toggleMenu}>
-        ☰
+      <div style={styles.navLinks}>
+        {links.map((link) => (
+          <a
+            key={link}
+            href={`#${link.toLowerCase()}`}
+            style={{
+              ...styles.link,
+              color: hovered === link ? "#00bfff" : "#fff",
+              borderBottom:
+                hovered === link ? "2px solid #00bfff" : "2px solid transparent",
+            }}
+            onMouseEnter={() => setHovered(link)}
+            onMouseLeave={() => setHovered(null)}
+          >
+            {link}
+          </a>
+        ))}
       </div>
-
-      <ul className={`nav-links ${open ? "open" : ""}`}>
-        <ul className={`nav-links ${open ? "open" : ""}`}>
-          <li>
-            <a href="#home" onClick={toggleMenu}>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" onClick={toggleMenu}>
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#cybersecurity" onClick={toggleMenu}>
-              Cybersecurity
-            </a>
-          </li>
-          <li>
-            <a href="#projects" onClick={toggleMenu}>
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#skills" onClick={toggleMenu}>
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href="#contact" onClick={toggleMenu}>
-              Contact
-            </a>
-          </li>
-        </ul>
-      </ul>
     </nav>
   );
 }
+
+const styles = {
+  navbar: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "15px 30px",
+    backgroundColor: "#0a192f",
+    color: "#fff",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+  },
+
+  logo: {
+    fontSize: "20px",
+    fontWeight: "bold",
+  },
+
+  navLinks: {
+    display: "flex",
+    gap: "20px",
+  },
+
+  link: {
+    textDecoration: "none",
+    fontSize: "15px",
+    cursor: "pointer",
+    paddingBottom: "5px",
+    transition: "all 0.3s ease", // smooth hover
+  },
+};
 
 export default Navbar;
