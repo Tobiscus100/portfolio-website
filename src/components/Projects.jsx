@@ -26,16 +26,26 @@ function Projects() {
     },
     {
       id: 3,
+      title: "Digital Agency Landing Page",
+      category: "Frontend Landing Page",
+      description:
+        "A modern, high-performance landing page for a digital engineering agency built using semantic HTML5, modern CSS3 (Flexbox & CSS Grid), and vanilla JavaScript.",
+      tags: ["HTML5", "CSS3", "JavaScript", "Flexbox", "CSS Grid"],
+      github: "https://github.com/Tobiscus100/codveda-frontend-tasks",
+      demo: null,
+    },
+    {
+      id: 4,
       title: "Interactive Task & Todo App",
       category: "Frontend Application",
       description:
-        "Modern task management application engineered in React. Includes dynamic task filtering by status.",
+        "Modern task management application engineered in React. Includes dynamic task filtering by status, real-time updates, and local storage state persistence.",
       tags: ["React", "JavaScript", "CSS3", "State Management"],
       github: "https://github.com/Tobiscus100/my-todo-app",
       demo: null,
     },
     {
-      id: 4,
+      id: 5,
       title: "Developer Portfolio Website",
       category: "Personal Brand",
       description:
