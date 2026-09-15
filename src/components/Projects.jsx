@@ -16,16 +16,26 @@ function Projects() {
     },
     {
       id: 2,
+      title: "Advice Generator App",
+      category: "Frontend Application",
+      description:
+        "Interactive web application that fetches dynamic advice slips via the Advice Slip REST API, featuring responsive layout design and clean asynchronous state handling.",
+      tags: ["React", "JavaScript", "REST API", "CSS3"],
+      github: "https://github.com/Tobiscus100/advice-generator",
+      demo: null,
+    },
+    {
+      id: 3,
       title: "Interactive Task & Todo App",
       category: "Frontend Application",
       description:
-        "Modern task management application engineered in React. Includes dynamic task filtering by status, real-time updates, and local storage state persistence.",
+        "Modern task management application engineered in React. Includes dynamic task filtering by status.",
       tags: ["React", "JavaScript", "CSS3", "State Management"],
       github: "https://github.com/Tobiscus100/my-todo-app",
       demo: null,
     },
     {
-      id: 3,
+      id: 4,
       title: "Developer Portfolio Website",
       category: "Personal Brand",
       description:
