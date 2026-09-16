@@ -22,7 +22,7 @@ function Projects() {
         "Interactive web application that fetches dynamic advice slips via the Advice Slip REST API, featuring responsive layout design, state persistence, and clean asynchronous data handling.",
       tags: ["React", "TypeScript", "TanStack Query", "REST API", "Tailwind CSS"],
       github: "https://github.com/Tobiscus100/advice-generator",
-      demo: "https://advice-generator-tobiscus.netlify.app", // Adjust if your Netlify subdomain uses a slightly different name
+      demo: "https://advicemain.netlify.app", // Adjust if your Netlify subdomain uses a slightly different name
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ function Projects() {
         "A modern, high-performance landing page for a digital engineering agency built using semantic HTML5, modern CSS3 (Flexbox & CSS Grid), and vanilla JavaScript.",
       tags: ["HTML5", "CSS3", "JavaScript", "Flexbox", "CSS Grid"],
       github: "https://github.com/Tobiscus100/codveda-frontend-tasks",
-      demo: null,
+      demo: "apexsphere.netlify.app", // Adjust if your Netlify subdomain uses a slightly different name
     },
     {
       id: 4,
