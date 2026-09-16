@@ -4,7 +4,7 @@ function Projects() {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   const projectList = [
-   {
+    {
       id: 1,
       title: "Commercial E-Commerce Platform",
       category: "Full-Stack Web",
@@ -19,10 +19,10 @@ function Projects() {
       title: "Advice Generator App",
       category: "Frontend Application",
       description:
-        "Interactive web application that fetches dynamic advice slips via the Advice Slip REST API, featuring responsive layout design and clean asynchronous state handling.",
-      tags: ["React", "JavaScript", "REST API", "CSS3"],
+        "Interactive web application that fetches dynamic advice slips via the Advice Slip REST API, featuring responsive layout design, state persistence, and clean asynchronous data handling.",
+      tags: ["React", "TypeScript", "TanStack Query", "REST API", "Tailwind CSS"],
       github: "https://github.com/Tobiscus100/advice-generator",
-      demo: null,
+      demo: "https://advice-generator-tobiscus.netlify.app", // Adjust if your Netlify subdomain uses a slightly different name
     },
     {
       id: 3,
