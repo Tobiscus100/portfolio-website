@@ -4,15 +4,15 @@ function Projects() {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   const projectList = [
-    {
+   {
       id: 1,
       title: "Commercial E-Commerce Platform",
       category: "Full-Stack Web",
       description:
-        "Full-stack digital storefront featuring dynamic product browsing, persistent shopping cart sessions, user authentication, and end-to-end Stripe payment processing.",
-      tags: ["Django", "Python", "Stripe API", "PostgreSQL", "JavaScript"],
+        "Full-stack digital storefront featuring dynamic product browsing, persistent cart sessions, JWT authentication, and end-to-end Stripe checkout with automated receipt delivery.",
+      tags: ["React", "Django REST", "PostgreSQL", "Stripe API", "Netlify", "Render"],
       github: "https://github.com/Tobiscus100/ecommerce-project",
-      demo: null,
+      demo: "https://premium-shopweb.netlify.app",
     },
     {
       id: 2,
