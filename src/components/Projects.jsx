@@ -32,7 +32,7 @@ function Projects() {
         "A modern, high-performance landing page for a digital engineering agency built using semantic HTML5, modern CSS3 (Flexbox & CSS Grid), and vanilla JavaScript.",
       tags: ["HTML5", "CSS3", "JavaScript", "Flexbox", "CSS Grid"],
       github: "https://github.com/Tobiscus100/codveda-frontend-tasks",
-      demo: "apexsphere.netlify.app", // Adjust if your Netlify subdomain uses a slightly different name
+      demo: "https://apexsphere.netlify.app", // Adjust if your Netlify subdomain uses a slightly different name
     },
     {
       id: 4,
