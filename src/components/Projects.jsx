@@ -44,16 +44,7 @@ function Projects() {
       github: "https://github.com/Tobiscus100/my-todo-app",
       demo: null,
     },
-    {
-      id: 5,
-      title: "Developer Portfolio Website",
-      category: "Personal Brand",
-      description:
-        "Personal developer portfolio showcasing full-stack capabilities, cybersecurity credentials, responsive UI clearance, and integrated EmailJS client messaging.",
-      tags: ["React", "JavaScript", "EmailJS", "Netlify"],
-      github: "https://github.com/Tobiscus100/portfolio-website",
-      demo: "https://tobiscus-dev.netlify.app",
-    },
+    
   ];
 
   return (
