@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# ⚡ Personal Developer Portfolio & Engineering Showcase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, high-performance portfolio website engineered with **React** to showcase full-stack platforms, client systems, responsive web applications, and architectural case studies. Designed with a sleek developer aesthetic, accessible navigation, and interactive project cards.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Site
 
-### `npm start`
+- **Live URL:** [https://tobidev.vercel.app](https://tobidev.vercel.app) *(Update with your portfolio live domain)*
+- **Source Code:** [https://github.com/Tobiscus100/portfolio](https://github.com/Tobiscus100/portfolio) *(Update with your portfolio repo URL)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Core Features
 
-### `npm test`
+- **Interactive Project Showcase:** Dynamic project cards featuring category badges, tech stack pills, responsive hover elevations, and direct links to live demos and source repositories.
+- **Modern Developer UI:** Dark-mode primary color palette inspired by modern developer ecosystems (`#0a192f` slate/navy with `#64ffda` mint highlights).
+- **Responsive Fluid Layouts:** Built using CSS Grid, Flexbox, and `clamp()` typography to deliver seamless user experiences from mobile displays to ultra-wide monitors.
+- **Client-Side Routing & Smooth Scroll:** Seamless section navigation with customized scroll margin offsets.
+- **Production Optimized:** Zero heavy UI dependencies; fast First Contentful Paint (FCP) and minimal bundle size.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧰 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Core Library:** React 18
+- **Styling:** CSS-in-JS (Component Stylesheets), Modern CSS3 (Grid & Flexbox)
+- **Icons:** React Icons (`FiExternalLink`, `FiGithub`, `FiMail`)
+- **Deployment & Hosting:** Vercel / Netlify
+- **Version Control:** Git & GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Repository Structure
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── images/              # Project preview screenshots & thumbnails
+├── src/
+│   ├── assets/              # Static SVG icons and graphics
+│   ├── components/
+│   │   ├── Navbar.jsx       # Responsive header and navigation links
+│   │   ├── Hero.jsx         # Intro banner, headline, and resume CTAs
+│   │   ├── About.jsx        # Engineering background & core competencies
+│   │   ├── Projects.jsx     # Dynamic project cards and case studies
+│   │   ├── Skills.jsx       # Tech stack tags and tooling proficiencies
+│   │   ├── Contact.jsx      # Direct outreach form & social links
+│   │   └── Footer.jsx       # Copyright and platform notices
+│   ├── App.jsx              # Main layout assembler
+│   ├── index.css            # Base reset, fonts, and global variables
+│   └── main.jsx             # React DOM root entry
+├── package.json
+└── README.md
