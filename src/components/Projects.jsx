@@ -12,7 +12,7 @@ function Projects() {
         "Full-stack digital storefront featuring dynamic product browsing, persistent cart sessions, JWT authentication, and end-to-end Stripe checkout with automated receipt delivery.",
       tags: ["React", "Django REST", "PostgreSQL", "Stripe API", "Netlify", "Render"],
       github: "https://github.com/Tobiscus100/ecommerce-project",
-      demo: "git push origin main",
+      demo: "ecommerce-project-theta-red.vercel.app",
     },
     {
       id: 2,
